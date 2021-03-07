@@ -4,6 +4,7 @@ import PostFilters from './PostFilters'
 import posts from './posts'
 
 const PostList = () => {
+
     return (
         <section className="flat-posts-wrap">
             <div className="container">
@@ -16,12 +17,18 @@ const PostList = () => {
                     <div className="flat-post-category-filters">
                         <div className="flat-post-category-name">filters:</div>
                         <div className="flat-post-category-wrap">
-                            {
+                            <div class="flat-post-category-filter flat-reality"><span class="fas fa-home"></span></div>
+                            <div class="flat-post-category-filter flat-living"><span class="fas fa-user-alt"></span></div>
+                            <div class="flat-post-category-filter flat-education"><span class="fas fa-graduation-cap"></span></div>
+                            <div class="flat-post-category-filter flat-entertainment"><span class="fas fa-music"></span></div>
+                            <div class="flat-post-category-filter flat-mobility"><span class="fas fa-bus"></span></div>
+
+                            {/* {
                                 posts.map(({
-                                    id,
-                                    category,
-                                    icon,
-                                }) =>
+                                        id,
+                                        category,
+                                        icon,
+                                    }) =>
                                     <PostFilters
                                         key={id}
                                         id={id}
@@ -29,7 +36,7 @@ const PostList = () => {
                                         icon={icon}
                                     />
                                 )
-                            }
+                            } */}
                         </div>
                     </div>
                 </div>
