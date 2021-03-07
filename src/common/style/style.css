@@ -706,6 +706,11 @@ body {
 .flat-posts-wrap {
   background: #f3f1f2;
   overflow: hidden;
+  padding: 35px 0;
+}
+
+.flat-image-slider .swiper-button-next, .flat-image-slider .swiper-button-prev {
+  color: #e94e38;
 }
 
 .flat-posts {
@@ -966,16 +971,17 @@ body {
   font-weight: 400;
 }
 
-.flat-footer-menu .flat-social-menu {
+.flat-footer-social-wrap .flat-nav-menu {
   display: inline-block;
   width: 35%;
   margin-bottom: 15px;
 }
 
-.flat-footer-menu .flat-social-menu a {
+.flat-footer-social-wrap .flat-nav-menu a {
   display: inline-block;
   color: #c0bebc;
   font-size: 25px;
+  font-family: 'Font Awesome 5 Brands';
 }
 
 .flat-footer-wrap {
@@ -1346,24 +1352,24 @@ body {
   .flat-footer-menu .flat-nav-menu a:hover {
     color: #e94e38;
   }
-  .flat-footer-menu .flat-social-menu {
+  .flat-footer-social-wrap .flat-nav-menu {
     display: inline-block;
     width: auto;
     margin: 0 15px 0 0;
   }
-  .flat-footer-menu .flat-social-menu a {
+  .flat-footer-social-wrap .flat-nav-menu a {
     font-size: 40px;
   }
-  .flat-footer-menu .flat-social-menu a:hover.fa-facebook-square {
+  .flat-footer-social-wrap .flat-nav-menu a:hover.fa-facebook-square {
     color: #3b5998;
   }
-  .flat-footer-menu .flat-social-menu a:hover.fa-twitter-square {
+  .flat-footer-social-wrap .flat-nav-menu a:hover.fa-twitter-square {
     color: #00acee;
   }
-  .flat-footer-menu .flat-social-menu a:hover.fa-google-plus-square {
+  .flat-footer-social-wrap .flat-nav-menu a:hover.fa-google-plus-square {
     color: #4285f4;
   }
-  .flat-footer-menu .flat-social-menu a:hover.fa-youtube-square {
+  .flat-footer-social-wrap .flat-nav-menu a:hover.fa-youtube-square {
     color: #FF0000;
   }
 }

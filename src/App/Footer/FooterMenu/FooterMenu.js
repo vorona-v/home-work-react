@@ -2,13 +2,13 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 
-const Menu = () => {
+const FooterMenu = () => {
     return (
         <>
-            <div className="flat-nav-menu">
-                <div className="flat-nav-menu-title">category</div>
-                <ul className="flat-menu">
-                    <li className="flat-nav-menu"><Link to="/reality">Reality</Link></li>
+            <div className="flat-footer-menu-wrap">
+                <div className="flat-footer-menu-title">category</div>
+                <ul>
+                <li className="flat-nav-menu"><Link to="/reality">Reality</Link></li>
                     <li className="flat-nav-menu"><Link to="/living">Living</Link></li>
                     <li className="flat-nav-menu"><Link to="/eduCation">EduCation</Link></li>
                     <li className="flat-nav-menu"><Link to="/entertainment">Entertainment</Link></li>
@@ -19,4 +19,4 @@ const Menu = () => {
     )
 }
 
-export default Menu
+export default FooterMenu

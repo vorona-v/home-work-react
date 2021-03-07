@@ -11,6 +11,7 @@ import Living from "./Main/Living/Living"
 import Education from "./Main/Education/Education"
 import Entertainment from "./Main/Entertainment/Entertainment"
 import Mobility from "./Main/Mobility/Mobility"
+import Slider from "./Main/Slider/Slider"
 
 class App extends Component {
     render() {
@@ -18,7 +19,8 @@ class App extends Component {
             <>
                 <Header />
                 <main className="main">
-                    
+                    <Slider />
+
                     <Route path="/" exact render={() => (
                         <Main />
                     )}/>
