@@ -14,7 +14,7 @@ class PostListItem extends Component {
         return (
             <div className={ 'flat-post-item flat-' + category }>
                 <div className="flat-post-wrap">
-                    <a href="#" className="flat-post-image-wrap">
+                    <a href="/" className="flat-post-image-wrap">
                         <img src={image} alt="image" />
                         <div className="flat-post-category"><span className={icon}></span></div>
                     </a>
@@ -23,7 +23,7 @@ class PostListItem extends Component {
                         <div className="flat-post-category-title">{category}</div>
                         <div className="flat-post-rating-wrap">
                             <div className="flat-post-rating">
-                                <div className="flat-rating">
+                                {/* <div className="flat-rating">
                                     <input type="radio" id="star-1" name="stars"/>
                                     <label for="star-1"><i className="fas fa-star"></i></label>
                                     <input type="radio" id="star-2" name="stars"/>
@@ -34,7 +34,7 @@ class PostListItem extends Component {
                                     <label for="star-4"><i className="fas fa-star"></i></label>
                                     <input type="radio" id="star-5" name="stars" checked="checked"/>
                                     <label for="star-5"><i className="fas fa-star"></i></label>
-                                </div>
+                                </div> */}
                                 <div className="flat-post-rating-count">(365)</div>
                             </div>
                         </div>

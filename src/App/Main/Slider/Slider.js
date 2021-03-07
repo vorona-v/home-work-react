@@ -25,7 +25,7 @@ const Slider = () => {
                         id,
                         image,
                     }) =>
-                        <SwiperSlide><div className="flat-image-slide"><img src={image} alt="logo" /></div></SwiperSlide>
+                        <SwiperSlide key={id}><div className="flat-image-slide"><img src={image} alt="logo" /></div></SwiperSlide>
                     )
                 }
             

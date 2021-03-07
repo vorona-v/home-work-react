@@ -95,6 +95,9 @@ body {
   background: #1baf5d;
 }
 
+.flat-reality .flat-post-category-title {
+  color: #1baf5d;
+}
 .flat-reality .flat-offer-info-title {
   color: #1baf5d;
 }
@@ -103,10 +106,12 @@ body {
   background: #1baf5d;
 }
 
-.flat-reality .flat-post-category-title {
+.react-tabs__tab--selected .flat-offer-category.flat-reality {
+  border-color: #1baf5d;
+}
+.react-tabs__tab--selected .flat-offer-category.flat-reality .fas {
   color: #1baf5d;
 }
-
 .flat-reality.flat-offer-category.active {
   border-color: #1baf5d;
 }
@@ -121,6 +126,31 @@ body {
 
 .flat-reality.flat-offer-category:hover .fas {
   color: #1baf5d;
+}
+
+.flat-living .flat-post-category-title {
+  color: #2756af;
+}
+
+.react-tabs__tab--selected .flat-offer-category.flat-living {
+  border-color: #2756af;
+}
+.react-tabs__tab--selected .flat-offer-category.flat-living .fas {
+  color: #2756af;
+}
+.flat-living .flat-offer-info-title {
+  color: #2756af;
+}
+
+.flat-living .flat-offer-info-item i {
+  background: #2756af;
+}
+.flat-living.flat-offer-category:hover {
+  border-color: #2756af;
+}
+
+.flat-living.flat-offer-category:hover .fas {
+  color: #2756af;
 }
 
 .flat-living.flat-post-category-filter:hover {
@@ -143,6 +173,12 @@ body {
   color: #2756af;
 }
 
+.react-tabs__tab--selected .flat-offer-category.flat-education {
+  border-color: #2756af;
+}
+.react-tabs__tab--selected .flat-offer-category.flat-education .fas {
+  color: #2756af;
+}
 .flat-living.flat-offer-category.active {
   border-color: #2756af;
 }
@@ -179,6 +215,23 @@ body {
   color: #af0631;
 }
 
+.flat-education .flat-post-category-title {
+  color: #af0631;
+}
+
+.react-tabs__tab--selected .flat-offer-category.flat-education {
+  border-color: #af0631;
+}
+.react-tabs__tab--selected .flat-offer-category.flat-education .fas {
+  color: #af0631;
+}
+.flat-education .flat-offer-info-title {
+  color: #af0631;
+}
+
+.flat-education .flat-offer-info-item i {
+  background: #af0631;
+}
 .flat-education.flat-offer-category.active {
   border-color: #af0631;
 }
@@ -215,6 +268,20 @@ body {
   color: #f19e1f;
 }
 
+.react-tabs__tab--selected .flat-offer-category.flat-entertainment {
+  border-color: #f19e1f;
+}
+.react-tabs__tab--selected .flat-offer-category.flat-entertainment .fas {
+  color: #f19e1f;
+}
+.flat-entertainment .flat-offer-info-title {
+  color: #f19e1f;
+}
+
+.flat-entertainment .flat-offer-info-item i {
+  background: #f19e1f;
+}
+
 .flat-entertainment.flat-offer-category.active {
   border-color: #f19e1f;
 }
@@ -249,6 +316,20 @@ body {
 
 .flat-mobility .flat-post-category-title {
   color: #88499c;
+}
+
+.react-tabs__tab--selected .flat-offer-category.flat-mobility {
+  border-color: #88499c;
+}
+.react-tabs__tab--selected .flat-offer-category.flat-mobility .fas {
+  color: #88499c;
+}
+.flat-mobility .flat-offer-info-title {
+  color: #88499c;
+}
+
+.flat-mobility .flat-offer-info-item i {
+  background: #88499c;
 }
 
 .flat-mobility.flat-offer-category.active {
@@ -724,6 +805,31 @@ body {
 .flat-hoot-offer-wrap {
   background: #f3f1f2;
   padding: 30px 0;
+}
+
+.flat-hoot-offer-wrap .react-tabs__tab-list {
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flat-hoot-offer-wrap .react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: initial;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.flat-hoot-offer-wrap .react-tabs__tab--selected {
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+  border-radius: 0;
+  outline: none;
 }
 
 .flat-hoot-offer-title {
