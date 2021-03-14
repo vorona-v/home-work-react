@@ -1,0 +1,114 @@
+/*Posts style*/
+.flat-posts-wrap {
+    background: #f3f1f2;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.flat-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    grid-auto-flow: row;
+}
+
+.flat-post-item .flat-post-wrap {
+    background: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0px 1px 0px 0px rgba(226, 222, 224, 0);
+}
+
+.flat-post-image-wrap {
+    position: relative;
+    margin: 0 0 20px;
+    display: block;
+}
+.flat-post-image-wrap img {
+    border-radius: 3px 3px 0 0;
+}
+.flat-post-image-wrap:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+}
+
+.flat-post-title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #566375;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    height: 36px;
+    overflow: hidden;
+    width: 100%;
+    display: inline-block;
+}
+
+.flat-post-category-title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #566375;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+.flat-post-rating-wrap {
+    text-align: center;
+}
+
+.flat-post-category {
+    position: absolute;
+    left: 50%;
+    bottom: -18px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #ffffff;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform: translate(-50%, 0);
+}
+.flat-post-category .fas {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.flat-post-info-wrap {
+    padding: 0 10px 15px;
+}
+
+@media (min-width: 768px) {
+    .flat-posts {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 24px;
+    }
+
+    .flat-post-image-wrap {
+        margin: 0 0 30px;
+    }
+    .flat-post-image-wrap img {
+        height: 160px;
+    }
+
+    .flat-post-category {
+        bottom: -26px;
+        width: 55px;
+        height: 55px;
+    }
+    .flat-post-category .fas {
+        font-size: 24px;
+    }
+}
+/*Posts style end*/

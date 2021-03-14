@@ -4,6 +4,8 @@ import Menu from "./Menu/Menu"
 import SearchForm from "./SearchForm/SearchForm"
 import LoginForm from "./LoginForm/LoginForm"
 
+import "./header.css"
+
 const Header = () => {
     return (
         <header className="flat-header-wrap">

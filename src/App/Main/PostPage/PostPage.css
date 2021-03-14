@@ -1,0 +1,29 @@
+.flat-post-page {
+    background: #f3f1f2;
+    overflow: hidden;
+    padding: 35px 0;
+}
+.flat-post-page .flat-post-text {
+    font-size: 14px;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+.flat-post-page .flat-post-text >div {
+    margin-bottom: 15px;
+}
+
+.flat-post-page img {
+    width: 350px;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+    .flat-post-page .flat-post-text {
+        font-size: 16px;
+    }
+
+}
