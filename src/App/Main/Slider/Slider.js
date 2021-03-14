@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/swiper.min.css'
 import 'swiper/swiper-bundle.css'
 import 'swiper/components/navigation/navigation.min.css'
+import './slider.css'
 
 SwiperCore.use([Navigation]);
 

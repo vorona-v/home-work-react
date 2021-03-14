@@ -12,6 +12,8 @@ import Education from "./Main/Education/Education"
 import Entertainment from "./Main/Entertainment/Entertainment"
 import Mobility from "./Main/Mobility/Mobility"
 import Slider from "./Main/Slider/Slider"
+import PostPage from "./Main/PostPage/PostPage"
+
 
 class App extends Component {
     render() {
@@ -30,6 +32,9 @@ class App extends Component {
                     <Route path="/education" component={Education}/>
                     <Route path="/entertainment" component={Entertainment}/>
                     <Route path="/mobility" component={Mobility}/>
+                    <Route path="/posts/:id" component={PostPage} />
+
+                    
 
                 </main> 
                 

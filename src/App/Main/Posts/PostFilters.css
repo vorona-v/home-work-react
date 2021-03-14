@@ -1,0 +1,112 @@
+/*Filters style*/
+.flat-post-time-filters {
+    grid-area: flat-post-time-filters;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.flat-post-category-filters {
+    grid-area: flat-post-category-filters;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.flat-post-filter-row {
+    display: grid;
+    grid-template-areas: "flat-post-category-filters" "flat-post-time-filters";
+}
+
+.flat-post-category-name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #96a6a7;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.flat-post-category-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flat-post-category-filter {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #96a6a7;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: background 0.25s;
+    -moz-transition: background 0.25s;
+    -ms-transition: background 0.25s;
+    -o-transition: background 0.25s;
+    transition: background 0.25s;
+}
+.flat-post-category-filter .fas {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.flat-post-time-filter-name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #96a6a7;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.flat-post-time-filter-name.active {
+    color: #e94e38;
+}
+
+@media (min-width: 768px) {
+    .flat-post-filter-row {
+        padding: 15px 0 25px;
+        grid-template-columns: 4fr 4fr;
+        grid-template-areas: "flat-post-time-filters flat-post-category-filters";
+    }
+
+    .flat-post-time-filter-name {
+        margin-right: 15px;
+    }
+
+    .flat-post-time-filters {
+        justify-content: flex-start;
+        margin: 0 25px 0 0;
+        align-self: center;
+    }
+
+    .flat-post-category-filters {
+        flex-direction: initial;
+        margin: 0;
+        justify-content: flex-end;
+    }
+
+    .flat-post-category-wrap {
+        width: auto;
+    }
+
+    .flat-post-category-name {
+        margin: 0;
+    }
+
+    .flat-post-category-filter {
+        margin-left: 15px;
+    }
+}

@@ -1,0 +1,11 @@
+.flat-rating label:hover, .flat-rating label:hover ~ .flat-rating label {
+    color: #f19e1f;
+}
+
+.flat-rating input:checked ~ label {
+    color: #FFC613;
+}
+
+.flat-image-slider .swiper-button-next, .flat-image-slider .swiper-button-prev {
+    color: #e94e38;
+}

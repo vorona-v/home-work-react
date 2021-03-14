@@ -2,6 +2,7 @@ import React from "react"
 import offers from "./offers"
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import './Offers.css';
 
 const OffersList = () => {
     return (

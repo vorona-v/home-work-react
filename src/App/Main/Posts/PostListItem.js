@@ -1,10 +1,12 @@
 import React, { Component } from "react"
 import PropTypes from 'prop-types'
+import { Link } from "react-router-dom";
 
 
 class PostListItem extends Component {
     render() {
         const {
+            id,
             title,
             category,
             image,
@@ -14,12 +16,12 @@ class PostListItem extends Component {
         return (
             <div className={ 'flat-post-item flat-' + category }>
                 <div className="flat-post-wrap">
-                    <a href="/" className="flat-post-image-wrap">
+                    <Link to={`/posts/${id}`} className="flat-post-image-wrap">
                         <img src={image} alt="image" />
                         <div className="flat-post-category"><span className={icon}></span></div>
-                    </a>
+                    </Link>
                     <div className="flat-post-info-wrap">
-                        <div className="flat-post-title">{title}</div>
+                        <Link to={`/posts/${id}`} className="flat-post-title">{title}</Link>
                         <div className="flat-post-category-title">{category}</div>
                         <div className="flat-post-rating-wrap">
                             <div className="flat-post-rating">

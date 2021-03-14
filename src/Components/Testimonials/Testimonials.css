@@ -1,0 +1,133 @@
+.flat-post-page .flat-form-wrap {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 25px;
+    flex-direction: column;
+    background-color: transparent;
+
+    border: none;
+    padding: 0;
+}
+.flat-post-page .flat-form-input {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+}
+.flat-post-page .flat-form-input input {
+    width: 100%;
+    padding: 5px 10px;
+    color: #000000;
+    background-color: #ffffff;
+}
+.flat-post-page .flat-form-input input::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.flat-post-page .flat-form-input input::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.flat-post-page .flat-form-input input:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.flat-post-page .flat-form-input input::-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.flat-post-page .flat-form-input input::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+.flat-post-page .flat-form-textarea {
+    margin-bottom: 25px;
+    width: 100%;
+}
+.flat-post-page .flat-form-textarea textarea {
+    width: 100%;
+    padding: 5px 10px;
+    color: #000000;
+    background-color: #ffffff;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    resize: vertical;
+    height: 100px;
+}
+.flat-post-page .flat-form-textarea textarea::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.flat-post-page .flat-form-textarea textarea::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.flat-post-page .flat-form-textarea textarea:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.flat-post-page .flat-form-textarea textarea::-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.flat-post-page .flat-form-textarea textarea::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+}
+.flat-testimonial-wrap {
+    padding: 10px;
+    margin-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.flat-user-name {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.flat-user-name >span {
+    margin-left: 3px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.flat-user-message {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.flat-user-message >span {
+    margin-left: 3px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+    .flat-post-page .flat-form-wrap {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .flat-post-page .flat-form-input {
+        width: 200px;
+        margin: 0 25px 0 0;
+    }
+    .flat-post-page .flat-form-textarea {
+        flex-grow: 1;
+        margin: 0 25px 0 0;
+        height: 44px;
+    }
+    .flat-post-page .flat-form-textarea textarea {
+        height: 44px;
+    }
+    .flat-user-name {
+        font-size: 15px;
+    }
+    .flat-user-message {
+        font-size: 15px;
+    }
+
+}

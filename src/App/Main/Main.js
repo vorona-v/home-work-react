@@ -6,7 +6,6 @@ import OffersList from "./Offers/OffersList"
 const Main = () => {
     return (
         <>
-            
             <PostList />
             <OffersList />   
         </>

@@ -1,6 +1,7 @@
 import React from "react"
 import FooterMenu from "./FooterMenu/FooterMenu"
 import SocialMenu from "./SocialMenu/SocialMenu"
+import './Footer.css'
 
 const Footer = () => {
     return (
