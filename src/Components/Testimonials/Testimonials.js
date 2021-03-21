@@ -4,13 +4,14 @@ import './Testimonials.css'
 const Testimonials = () => {
 
     const arrTestimonials = [
-        {name:"Jake", text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
-        {name:"Ludmila", text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
+        {id:1, name:"Jake", text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
+        {id:2, name:"Ludmila", text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
     ]
 
     const [testimonials, setTestimonials] = useState(arrTestimonials)
 
     const [newTestimonials, setNewTestimonials] = useState({
+        id:"",
         name:"",
         text:"",
     })
@@ -35,6 +36,7 @@ const Testimonials = () => {
             return [...value, newTestimonials]
         })
         setNewTestimonials({
+            id:"",
             name:"",
             text:"",
         })
@@ -65,7 +67,7 @@ const Testimonials = () => {
 
             {
                 testimonials.map((item) => (
-                    <div className="flat-testimonial-wrap">
+                    <div className="flat-testimonial-wrap" key={item.id}>
                         <div className="flat-user-name">Name:<span>{item.name}</span></div>
                         <div className="flat-user-message">Message:<span>{item.text}</span></div>
                     </div>

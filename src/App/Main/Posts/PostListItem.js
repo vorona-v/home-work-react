@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
+import { connect } from "react-redux"
+import { postLikeReducer } from "../../../redux/postLikeReducer"
 
 
 class PostListItem extends Component {
@@ -11,6 +13,9 @@ class PostListItem extends Component {
             category,
             image,
             icon,
+            isLiked,
+            addLike,
+            removeLike
         } = this.props;
 
         return (
@@ -20,6 +25,11 @@ class PostListItem extends Component {
                         <img src={image} alt="image" />
                         <div className="flat-post-category"><span className={icon}></span></div>
                     </Link>
+                    <div className="flat-post-like">
+                        <button onClick={() => isLiked ? removeLike(id) : addLike(id) }>
+                            {isLiked ? <i className="fas fa-heart"></i> : <i className="far fa-heart"></i>}
+                        </button> 
+                    </div>
                     <div className="flat-post-info-wrap">
                         <Link to={`/posts/${id}`} className="flat-post-title">{title}</Link>
                         <div className="flat-post-category-title">{category}</div>
@@ -58,4 +68,22 @@ PostListItem.defaultProps = {
     image:"/images/no-image.png",
 }
 
-export default PostListItem
+const mapState = (state,{id}) => ({
+    isLiked:state.postLikeState[id]
+})
+
+const mapDispatch = dispatch => ({
+    addLike:(id) => dispatch({
+        type:'LIKE',
+        id
+    }),
+    removeLike:(id) => dispatch({
+        type:'DISLIKE',
+        id
+    })
+})
+
+export default connect(
+    mapState,
+    mapDispatch
+) (PostListItem)

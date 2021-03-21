@@ -6,7 +6,7 @@ const posts = [
         title:"2 bedroom house for rent in Dubai",
         description: "<div>Of late years the Manilla rope has in the American fishery almost entirely superseded hemp as a material for whale-lines; for, though not so durable as hemp, it is stronger, and far more soft and elastic; and I will add (since there is an aesthetics in all things), is much more handsome and becoming to the boat, than hemp. Hemp is a dusky, dark fellow, a sort of Indian; but Manilla is as a golden-haired Circassian to behold.</div><img src='/images/image-1.jpg' alt='image' /><div>The whale-line is only two-thirds of an inch in thickness. At first sight, you would not think it so strong as it really is. By experiment its one and fifty yarns will each suspend a weight of one hundred and twenty pounds; so that the whole rope will bear a strain nearly equal to three tons. In length, the common sperm whale-line measures something over two hundred fathoms. Towards the stern of the boat it is spirally coiled away in the tub, not like the worm-pipe of a still though, but so as to form one round, cheese-shaped mass of densely bedded 'sheaves,' or layers of concentric spiralizations, without any hollow but the 'heart,' or minute vertical tube formed at the axis of the cheese. </div>",
         category:"reality",
-        image:"/images/image-1.jpg",
+        image:"images/image-1.jpg",
         icon:"fas fa-home",
     },
     {
@@ -14,7 +14,7 @@ const posts = [
         title:"Family Residence Visas for Private sector",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"living",
-        image:"/images/image-2.jpg",
+        image:"images/image-2.jpg",
         icon:"fas fa-user-alt",
     },
     {
@@ -22,7 +22,7 @@ const posts = [
         title:"The standard Lorem Ipsum passage, used since the 1500s",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"education",
-        image:"/images/image-1.jpg",
+        image:"images/image-1.jpg",
         icon:"fas fa-graduation-cap",
     },
     {
@@ -30,7 +30,7 @@ const posts = [
         title:"Beach party festival 2014",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"entertainment",
-        image:"/images/image-2.jpg",
+        image:"images/image-2.jpg",
         icon:"fas fa-music",
     },
     {
@@ -38,7 +38,7 @@ const posts = [
         title:"Aliquam quis pulvinar purus",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"mobility",
-        image:"/images/image-1.jpg",
+        image:"images/image-1.jpg",
         icon:"fas fa-bus",
     },
     {
@@ -46,7 +46,7 @@ const posts = [
         title:"2 bedroom house for rent in Dubai",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"reality",
-        image:"/images/image-1.jpg",
+        image:"images/image-1.jpg",
         icon:"fas fa-home",
     },
     {
@@ -54,7 +54,7 @@ const posts = [
         title:"Family Residence Visas for Private sector",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"living",
-        image:"/images/image-2.jpg",
+        image:"images/image-2.jpg",
         icon:"fas fa-user-alt",
     },
     {
@@ -62,7 +62,7 @@ const posts = [
         title:"The standard Lorem Ipsum passage, used since the 1500s",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"education",
-        image:"/images/image-1.jpg",
+        image:"images/image-1.jpg",
         icon:"fas fa-graduation-cap",
     },
     {
@@ -70,7 +70,7 @@ const posts = [
         title:"Beach party festival 2014",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"entertainment",
-        image:"/images/image-2.jpg",
+        image:"images/image-2.jpg",
         icon:"fas fa-music",
     },
     {
@@ -78,7 +78,7 @@ const posts = [
         title:"Aliquam quis pulvinar purus",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"mobility",
-        image:"/images/image-1.jpg",
+        image:"images/image-1.jpg",
         icon:"fas fa-bus",
     },
     {
@@ -86,7 +86,7 @@ const posts = [
         title:"2 bedroom house for rent in Dubai",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"reality",
-        image:"/images/image-1.jpg",
+        image:"images/image-1.jpg",
         icon:"fas fa-home",
     },
     {
@@ -94,7 +94,7 @@ const posts = [
         title:"Family Residence Visas for Private sector",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"living",
-        image:"/images/image-2.jpg",
+        image:"images/image-2.jpg",
         icon:"fas fa-user-alt",
     },
     {
@@ -102,7 +102,7 @@ const posts = [
         title:"The standard Lorem Ipsum passage, used since the 1500s",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"education",
-        image:"/images/image-1.jpg",
+        image:"images/image-1.jpg",
         icon:"fas fa-graduation-cap",
     },
     {
@@ -110,7 +110,7 @@ const posts = [
         title:"Beach party festival 2014",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"entertainment",
-        image:"/images/image-2.jpg",
+        image:"images/image-2.jpg",
         icon:"fas fa-music",
     },
     {
@@ -118,7 +118,7 @@ const posts = [
         title:"Aliquam quis pulvinar purus",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"mobility",
-        image:"/images/image-1.jpg",
+        image:"images/image-1.jpg",
         icon:"fas fa-bus",
     },
     {
@@ -126,7 +126,7 @@ const posts = [
         title:"2 bedroom house for rent in Dubai",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"reality",
-        image:"/images/image-1.jpg",
+        image:"images/image-1.jpg",
         icon:"fas fa-home",
     },
     {
@@ -134,7 +134,7 @@ const posts = [
         title:"Family Residence Visas for Private sector",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"living",
-        image:"/images/image-2.jpg",
+        image:"images/image-2.jpg",
         icon:"fas fa-user-alt",
     },
     {
@@ -142,7 +142,7 @@ const posts = [
         title:"The standard Lorem Ipsum passage, used since the 1500s",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"education",
-        image:"/images/image-1.jpg",
+        image:"images/image-1.jpg",
         icon:"fas fa-graduation-cap",
     },
     {
@@ -150,7 +150,7 @@ const posts = [
         title:"Beach party festival 2014",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"entertainment",
-        image:"/images/image-2.jpg",
+        image:"images/image-2.jpg",
         icon:"fas fa-music",
     },
     {
@@ -158,7 +158,7 @@ const posts = [
         title:"Aliquam quis pulvinar purus",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         category:"mobility",
-        image:"/images/image-1.jpg",
+        image:"images/image-1.jpg",
         icon:"fas fa-bus",
     },
     
