@@ -3,6 +3,9 @@
     overflow: hidden;
     padding: 35px 0;
 }
+.flat-post-page .container {
+    position: relative;
+}
 .flat-post-page .flat-post-text {
     font-size: 14px;
     color: #000000;
