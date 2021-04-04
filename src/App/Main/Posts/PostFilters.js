@@ -5,6 +5,7 @@ import './PostFilters.css'
 class PostFilters extends Component {
     render() {
         const {
+            posts,
             category,
             icon,
         } = this.props;

@@ -3,10 +3,10 @@ import PostList from "./Posts/PostList"
 import OffersList from "./Offers/OffersList"
 
 
-const Main = () => {
+const Main = ({posts}) => {
     return (
         <>
-            <PostList />
+            <PostList posts={posts} />
             <OffersList />   
         </>
     )

@@ -1,8 +1,10 @@
 import React from "react"
 import PostListItem from '../Posts/PostListItem'
-import posts from '../Posts/posts'
 
-const Reality = () => {
+const Reality = ({
+    posts
+}) => {
+    console.log('!@# render');
     return (
         <section className="flat-posts-wrap">
             <div className="container">

@@ -1,12 +1,14 @@
 import React from "react"
+
 import PostListItem from './PostListItem'
-import PostFilters from './PostFilters'
-import posts from './posts'
 
 import './Post.css'
+import './PostFilters.css'
 
-const PostList = () => {
 
+const PostList = ({
+    posts
+}) => {
     return (
         <section className="flat-posts-wrap">
             <div className="container">
@@ -24,21 +26,6 @@ const PostList = () => {
                             <div className="flat-post-category-filter flat-education"><span className="fas fa-graduation-cap"></span></div>
                             <div className="flat-post-category-filter flat-entertainment"><span className="fas fa-music"></span></div>
                             <div className="flat-post-category-filter flat-mobility"><span className="fas fa-bus"></span></div>
-
-                            {/* {
-                                posts.map(({
-                                        id,
-                                        category,
-                                        icon,
-                                    }) =>
-                                    <PostFilters
-                                        key={id}
-                                        id={id}
-                                        category={category}
-                                        icon={icon}
-                                    />
-                                )
-                            } */}
                         </div>
                     </div>
                 </div>

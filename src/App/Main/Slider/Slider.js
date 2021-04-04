@@ -12,6 +12,7 @@ import './slider.css'
 SwiperCore.use([Navigation]);
 
 const Slider = () => {
+    
     return (
         <section className="flat-image-slider">
             <Swiper
@@ -29,7 +30,7 @@ const Slider = () => {
                         <SwiperSlide key={id}><div className="flat-image-slide"><img src={image} alt="logo" /></div></SwiperSlide>
                     )
                 }
-            
+
             </Swiper>
         </section>
     )

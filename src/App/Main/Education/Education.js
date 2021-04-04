@@ -1,8 +1,7 @@
 import React from "react"
 import PostListItem from '../Posts/PostListItem'
-import posts from '../Posts/posts'
 
-const Education = () => {
+const Education = ({posts}) => {
     return (
         <section className="flat-posts-wrap">
             <div className="container">
