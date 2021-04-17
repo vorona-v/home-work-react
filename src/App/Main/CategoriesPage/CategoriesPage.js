@@ -1,13 +1,19 @@
 import React from "react"
 import PostListItem from '../Posts/PostListItem'
 
-const Education = ({posts}) => {
+const CategoriesPage = ({
+    posts,
+    match
+}) => {
+    
+    const category = match.params.category
+
     return (
         <section className="flat-posts-wrap">
             <div className="container">
                 <div className="flat-posts">
                     {
-                        posts.filter(item => item.category === "education").map(({
+                        posts.filter(item => item.category === category).map(({
                             id,
                             title,
                             description,
@@ -32,4 +38,4 @@ const Education = ({posts}) => {
     )
 }
 
-export default Education
+export default CategoriesPage

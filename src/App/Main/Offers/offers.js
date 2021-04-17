@@ -1,4 +1,3 @@
-import { array } from "prop-types"
 
 const offers = [
     {

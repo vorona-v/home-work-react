@@ -21,7 +21,7 @@ class PostListItem extends Component {
             <div className={ 'flat-post-item flat-' + category }>
                 <div className="flat-post-wrap">
                     <Link to={`/posts/${id}`} className="flat-post-image-wrap">
-                        <img src={image} alt="image" />
+                        <img src={image} alt="slide" />
                         <div className="flat-post-category"><span className={icon}></span></div>
                     </Link>
                     <div className="flat-post-like">

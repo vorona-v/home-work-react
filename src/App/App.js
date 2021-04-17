@@ -7,13 +7,11 @@ import "../common/style/style.css"
 import Header from "./Header/Header"
 import Footer from "./Footer/Footer"
 import Main from "./Main/Main"
-import Reality from "./Main/Reality/Reality"
-import Living from "./Main/Living/Living"
-import Education from "./Main/Education/Education"
-import Entertainment from "./Main/Entertainment/Entertainment"
-import Mobility from "./Main/Mobility/Mobility"
+
 import Slider from "./Main/Slider/Slider"
 import PostPage from "./Main/PostPage/PostPage"
+import CategoriesPage from "./Main/CategoriesPage/CategoriesPage"
+
 
 
 class App extends Component {
@@ -30,11 +28,12 @@ class App extends Component {
         })
        
     }
-
+    
     render() {
+        
         return (
             <>
-                <Header />
+                <Header posts={this.state.posts} />
                 <main className="main">
                     <Slider />
 
@@ -42,38 +41,13 @@ class App extends Component {
                         <Main posts={this.state.posts} />
                     )}/>
 
-                    <Route path="/reality" render={() => (
-                        <Reality posts={this.state.posts} />
-                    )}/>
-
-                    <Route path="/living" render={() => (
-                        <Living posts={this.state.posts} />
-                    )}/>
-                    
-                    <Route path="/education" render={() => (
-                        <Education posts={this.state.posts} />
-                    )}/>
-                    
-                    <Route path="/entertainment" render={() => (
-                        <Entertainment posts={this.state.posts} />
-                    )}/>
-                    
-                    <Route path="/mobility" render={() => (
-                        <Mobility posts={this.state.posts} />
+                    <Route path="/:category" render={({match}) => (
+                        <CategoriesPage posts={this.state.posts} match={match} />
                     )}/>
 
                     <Route path="/posts/:id" render={({match}) => (
                         <PostPage posts={this.state.posts} match={match} />
                     )}/>
-
-                    {/* <Route path="/reality" component={Reality} posts={this.state.posts}/>
-                    <Route path="/living" component={Living} posts={this.state.posts}/>
-                    <Route path="/education" component={Education} posts={this.state.posts}/>
-                    <Route path="/entertainment" component={Entertainment} posts={this.state.posts}/>
-                    <Route path="/mobility" component={Mobility} posts={this.state.posts}/> */}
-                    {/* <Route path="/posts/:id" component={PostPage} posts={this.state.posts} /> */}
-
-                    
 
                 </main> 
                 

@@ -18,7 +18,6 @@ const PostPage = ({
     } else {
         return (
             <>
-    
                 <section className={ 'flat-post-page flat-' + postsObject[id].category }>
                     <div className="container">
                         <div className="flat-post-like">
