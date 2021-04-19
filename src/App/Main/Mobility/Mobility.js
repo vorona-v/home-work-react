@@ -1,8 +1,7 @@
 import React from "react"
 import PostListItem from '../Posts/PostListItem'
-import posts from '../Posts/posts'
 
-const Mobility = () => {
+const Mobility = ({posts}) => {
     return (
         <section className="flat-posts-wrap">
             <div className="container">
