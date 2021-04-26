@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/home-work-react/static/css/main.9fe31064.chunk.css",
+    "main.js": "/home-work-react/static/js/main.4140c202.chunk.js",
+    "main.js.map": "/home-work-react/static/js/main.4140c202.chunk.js.map",
+    "runtime-main.js": "/home-work-react/static/js/runtime-main.50ce6ac3.js",
+    "runtime-main.js.map": "/home-work-react/static/js/runtime-main.50ce6ac3.js.map",
+    "static/css/2.5da05d05.chunk.css": "/home-work-react/static/css/2.5da05d05.chunk.css",
+    "static/js/2.8043ae8a.chunk.js": "/home-work-react/static/js/2.8043ae8a.chunk.js",
+    "static/js/2.8043ae8a.chunk.js.map": "/home-work-react/static/js/2.8043ae8a.chunk.js.map",
+    "index.html": "/home-work-react/index.html",
+    "static/css/2.5da05d05.chunk.css.map": "/home-work-react/static/css/2.5da05d05.chunk.css.map",
+    "static/css/main.9fe31064.chunk.css.map": "/home-work-react/static/css/main.9fe31064.chunk.css.map",
+    "static/js/2.8043ae8a.chunk.js.LICENSE.txt": "/home-work-react/static/js/2.8043ae8a.chunk.js.LICENSE.txt",
+    "static/media/all.css": "/home-work-react/static/media/fa-solid-900.f4f93856.woff",
+    "static/media/Footer.css": "/home-work-react/static/media/search-block-bg.57d9d71a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50ce6ac3.js",
+    "static/css/2.5da05d05.chunk.css",
+    "static/js/2.8043ae8a.chunk.js",
+    "static/css/main.9fe31064.chunk.css",
+    "static/js/main.4140c202.chunk.js"
+  ]
+}
