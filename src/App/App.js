@@ -17,7 +17,8 @@ import CategoriesPage from "./Main/CategoriesPage/CategoriesPage"
 class App extends Component {
 
     state = {
-        posts: []
+        posts: [],
+        
     }
     
     componentDidMount = () => {
